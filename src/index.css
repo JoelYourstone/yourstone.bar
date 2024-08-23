@@ -1,5 +1,50 @@
+@font-face {
+  font-family: "DIN 2014 Demi";
+  src: url("https://db.onlinewebfonts.com/t/1dd1c7d8df011c2266f33ebd5927c0ab.eot");
+  src: url("https://db.onlinewebfonts.com/t/1dd1c7d8df011c2266f33ebd5927c0ab.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/1dd1c7d8df011c2266f33ebd5927c0ab.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/1dd1c7d8df011c2266f33ebd5927c0ab.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/1dd1c7d8df011c2266f33ebd5927c0ab.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/1dd1c7d8df011c2266f33ebd5927c0ab.svg#DIN 2014 Demi")
+      format("svg");
+}
+
+@font-face {
+  font-family: "DIN2014-Regular";
+  src: url("https://db.onlinewebfonts.com/t/e0fa406cbe458b32a7ea4e9a379b85fc.eot");
+  src: url("https://db.onlinewebfonts.com/t/e0fa406cbe458b32a7ea4e9a379b85fc.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/e0fa406cbe458b32a7ea4e9a379b85fc.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/e0fa406cbe458b32a7ea4e9a379b85fc.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/e0fa406cbe458b32a7ea4e9a379b85fc.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/e0fa406cbe458b32a7ea4e9a379b85fc.svg#DIN2014-Regular")
+      format("svg");
+}
+
+@font-face {
+  font-family: "DIN2014-Light";
+  src: url("https://db.onlinewebfonts.com/t/dc068c3caeb3258c11eba79bbdb6abb4.eot");
+  src: url("https://db.onlinewebfonts.com/t/dc068c3caeb3258c11eba79bbdb6abb4.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/dc068c3caeb3258c11eba79bbdb6abb4.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/dc068c3caeb3258c11eba79bbdb6abb4.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/dc068c3caeb3258c11eba79bbdb6abb4.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/dc068c3caeb3258c11eba79bbdb6abb4.svg#DIN2014-Light")
+      format("svg");
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: DIN2014-Regular, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -24,10 +69,8 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
   min-height: 100vh;
+  width: 100%;
 }
 
 h1 {
