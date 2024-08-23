@@ -51,7 +51,7 @@ export const drinks: Drink[] = [
     name: "Hotel Nacional Special",
     keywords: ["Tiki", "Fruity", "Sweet", "Sour"],
     ingredients: [
-      "Havana Club Añejo 3 Años",
+      "Havana Club Añejo 7 Años",
       "Merlet Apricot Brandy",
       "Pineapple",
       "Lime",

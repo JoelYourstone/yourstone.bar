@@ -10,7 +10,7 @@ interface DrinkProps {
 const DrinkCard = styled.div`
   display: flex;
   text-align: left;
-  width: 50%;
+  width: calc(50% - 20px);
   justify-content: space-between;
   margin-bottom: 30px;
 

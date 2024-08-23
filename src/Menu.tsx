@@ -8,6 +8,7 @@ const DrinkContainer = styled.div`
   margin: 0 auto;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 0 20px;
 `;
 
 const Menu: React.FC = () => {
