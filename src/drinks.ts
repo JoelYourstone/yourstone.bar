@@ -12,12 +12,22 @@ export const drinks: Drink[] = [
   },
   {
     name: "Frozen Strawberry Daiquiri",
-    keywords: ["Sweet", "Fruity", "Cold!"],
+    keywords: ["Sweet", "Fruity", "Cold"],
     ingredients: ["Plantation 3 Stars Rum", "Strawberries", "Lime", "Sugar"],
   },
   {
+    name: "Piña Colada",
+    keywords: ["Sweet", "Fruity", "Creamy"],
+    ingredients: [
+      "Plantation 3 Stars Rum",
+      "Coconut cream",
+      "Acid adjusted pineapple",
+      "Angostura",
+    ],
+  },
+  {
     name: "Golden Gate",
-    keywords: ["Bitter", "Sour"],
+    keywords: ["Bitter", "Sour", "Herbal"],
     ingredients: [
       "Bénédictine D.O.M",
       "Campari",
@@ -41,7 +51,7 @@ export const drinks: Drink[] = [
     name: "Hotel Nacional Special",
     keywords: ["Tiki", "Fruity", "Sweet", "Sour"],
     ingredients: [
-      "Appleton Estate Signature Jamaican Rum",
+      "Havana Club Añejo 3 Años",
       "Merlet Apricot Brandy",
       "Pineapple",
       "Lime",
