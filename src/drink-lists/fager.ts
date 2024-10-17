@@ -17,7 +17,7 @@ export const drinks = [
   {
       name: "Scooby Snaquiri (frozen)",
       keywords: ["Söt", "Syrlig", "Stark", "Slushie"],
-      ingredients: ["Havana Club Añejo 3 años", "Lime", "Sockerlag", "Is"]
+      ingredients: ["Havana Club Añejo 3 años", "Lime", "Sockerlag"]
   },
   {
       name: "Luna Ghost",
