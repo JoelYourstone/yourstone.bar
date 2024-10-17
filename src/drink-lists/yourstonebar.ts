@@ -1,10 +1,6 @@
-export interface Drink {
-  name: string;
-  keywords: string[];
-  ingredients: string[];
-}
+import type { DrinkType } from "./drink";
 
-export const drinks: Drink[] = [
+export const drinks: DrinkType[] = [
   {
     name: "Clear Mojito",
     keywords: ["Sweet", "Minty", "Sour"],

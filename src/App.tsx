@@ -1,6 +1,10 @@
 import React from "react";
-import Menu from "./Menu";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import styled from "styled-components";
+import Menu from "./Menu";
+import Fager from "./Fager";
+import imgUrl from "./assets/logo.jpeg";
+import { drinks } from "./drink-lists/yourstonebar";
 
 const AppContainer = styled.div`
   max-width: 900px;
@@ -11,11 +15,24 @@ const AppContainer = styled.div`
 
 const App: React.FC = () => {
   return (
-    <AppContainer>
-      <h1>YOURSTONE.BAR</h1>
-      <h2 style={{ marginTop: -20, marginBottom: 40 }}>Menu</h2>
-      <Menu />
-    </AppContainer>
+    <Router>
+      <AppContainer>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <img src={imgUrl} alt="logo" style={{ width: 300 }} />
+                <h2 style={{ marginTop: -60, marginBottom: 40 }}>Menu</h2>
+                <Menu drinks={drinks} />
+              </>
+            }
+          />
+          <Route path="/fager" element={<Fager />} />
+          <Route path="/mellow" element={<Fager />} />
+        </Routes>
+      </AppContainer>
+    </Router>
   );
 };
 

@@ -1,7 +1,6 @@
-import React from "react";
 import Drink from "./Drink";
-import { drinks } from "./drinks";
 import { styled } from "styled-components";
+import { DrinkType } from "./drink-lists/drink";
 
 const DrinkContainer = styled.div`
   display: flex;
@@ -11,10 +10,10 @@ const DrinkContainer = styled.div`
   gap: 0 20px;
 `;
 
-const Menu: React.FC = () => {
+function Menu(props: { drinks: DrinkType[] }) {
   return (
     <DrinkContainer>
-      {drinks.map((drink, index) => (
+      {props.drinks.map((drink, index) => (
         <Drink
           key={index}
           name={drink.name}
@@ -24,6 +23,6 @@ const Menu: React.FC = () => {
       ))}
     </DrinkContainer>
   );
-};
+}
 
 export default Menu;
