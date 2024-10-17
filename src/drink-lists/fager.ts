@@ -25,7 +25,7 @@ export const drinks = [
       ingredients: ["Tempus Fugit Crème de Cacao & Crème de Banane", "El Dorado 8 year (Guyana)", "Soja- eller havregrädde", "Bitter Truth Spiced Chocolate Bitters", "Muskot"]
   },
   {
-      name: "Alkoholfri Gin&Tonic (~0.4% ABV)",
+      name: "Alkoholfri Gin&Tonic (~0.15% ABV)",
       keywords: ["Bitter", "Söt", "Frisk"],
       ingredients: ["Hemgjord Gin Tincture på Stjernsunds Navy Gin", "Tonic Water", "Limeklyfta"]
   },
