@@ -31,7 +31,7 @@ export const drinks = [
   },
   {
       name: "Champagne",
-      keywords: ["Champagne"],
-      ingredients: ["Champagne"]
+      keywords: ["Light", "Dry"],
+      ingredients: ["Billecart-Salmon Brut Réserve"]
   },
 ];
