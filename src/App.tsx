@@ -6,6 +6,15 @@ import Fager from "./Fager";
 import imgUrl from "./assets/logo.jpeg";
 import { drinks } from "./drink-lists/yourstonebar";
 
+const exclude = [
+  "Clear Mojito",
+  "Piña Colada",
+  "Trader Vic's Grog",
+  "Planter's Punch",
+];
+
+const filteredDrinks = drinks.filter((drink) => !exclude.includes(drink.name));
+
 const AppContainer = styled.div`
   max-width: 900px;
   margin: 0 auto;
@@ -24,7 +33,7 @@ const App: React.FC = () => {
               <>
                 <img src={imgUrl} alt="logo" style={{ width: 300 }} />
                 <h2 style={{ marginTop: -60, marginBottom: 40 }}>Menu</h2>
-                <Menu drinks={drinks} />
+                <Menu drinks={filteredDrinks} />
               </>
             }
           />

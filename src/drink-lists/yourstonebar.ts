@@ -2,9 +2,19 @@ import type { DrinkType } from "./drink";
 
 export const drinks: DrinkType[] = [
   {
+    name: "Spicy dead lady",
+    keywords: ["Rökig", "Frisk", "Söt"],
+    ingredients: ["Mezcal", "Aperol", "Falernum", "Lime", "Chili tincture"],
+  },
+  {
     name: "Clear Mojito",
     keywords: ["Sweet", "Minty", "Sour"],
     ingredients: ["Plantation 3 Stars Rum", "Mint lime cordial", "Soda water"],
+  },
+  {
+    name: "Anything Sour!",
+    keywords: ["Söt", "Syrlig", "Frisk"],
+    ingredients: ["Select any base spirit", "Lime / Lemon", "Sugar"],
   },
   {
     name: "Frozen Strawberry Daiquiri",
