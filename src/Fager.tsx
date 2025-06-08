@@ -1,8 +1,8 @@
-import React from "react";
-import styled from "styled-components";
-import Menu from "./Menu";
-import { drinks } from "./drink-lists/fager";
-import imgUrl from "./assets/fager.png";
+import React from 'react';
+import styled from 'styled-components';
+import Menu from './Menu';
+import { drinks } from './drink-lists/fager';
+import imgUrl from './assets/fager.png';
 
 const FagerContainer = styled.div`
   max-width: 900px;

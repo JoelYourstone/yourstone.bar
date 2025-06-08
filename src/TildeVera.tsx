@@ -1,6 +1,6 @@
 import Drink from './Drink';
 import { styled } from 'styled-components';
-import { DrinkType } from './drink-lists/drink';
+import { drinks } from './drink-lists/tildevera';
 
 const DrinkContainer = styled.div`
   display: flex;
@@ -10,14 +10,14 @@ const DrinkContainer = styled.div`
   gap: 0 20px;
 `;
 
-function Menu(props: { drinks: DrinkType[] }) {
+function TildeVera() {
   return (
     <DrinkContainer>
-      {props.drinks.map((drink, index) => (
+      {drinks.map((drink, index) => (
         <Drink key={index} name={drink.name} keywords={drink.keywords} ingredients={drink.ingredients} />
       ))}
     </DrinkContainer>
   );
 }
 
-export default Menu;
+export default TildeVera;

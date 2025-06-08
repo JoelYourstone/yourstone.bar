@@ -1,5 +1,5 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
 interface DrinkProps {
   name: string;
@@ -16,6 +16,9 @@ const DrinkCard = styled.div`
 
   @media (max-width: 768px) {
     width: 100%;
+  }
+  @media print {
+    width: calc(50% - 20px) !important;
   }
 `;
 
@@ -50,7 +53,7 @@ const Drink: React.FC<DrinkProps> = ({ name, keywords, ingredients }) => {
     <DrinkCard>
       <div>
         <DrinkTitle>{name}</DrinkTitle>
-        <DrinkIngredients>{ingredients.join(", ")}</DrinkIngredients>
+        <DrinkIngredients>{ingredients.join(', ')}</DrinkIngredients>
       </div>
       <Keywords>
         {keywords.map((keyword, index) => (
