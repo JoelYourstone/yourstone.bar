@@ -18,7 +18,7 @@ const DrinkCard = styled.div`
     width: 100%;
   }
   @media print {
-    width: calc(50% - 10px) !important;
+    width: calc(50% - 30px) !important;
   }
 `;
 
