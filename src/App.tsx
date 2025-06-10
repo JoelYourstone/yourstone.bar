@@ -44,7 +44,7 @@ const App: React.FC = () => {
             element={
               <>
                 <img src={imgUrl} alt="logo" style={{ width: 250 }} />
-                <h1 style={{ marginTop: -20, marginBottom: 60 }}>Tilde & Vera Student</h1>
+                <h1 style={{ marginTop: -20, marginBottom: 60 }}>Tilde & Veras Student</h1>
                 <Tildevera />
               </>
             }

@@ -4,7 +4,7 @@ export const drinks: DrinkType[] = [
   {
     name: 'Mojito - Jordgubb',
     keywords: ['Sweet', 'Fruity', 'Fresh'],
-    ingredients: ['Premix mojito', 'Strawberry']
+    ingredients: ['Rum', 'Strawberry', 'Lime', 'Sugar', 'Mint']
   },
   {
     name: 'Raspberry Licorice',
@@ -28,22 +28,27 @@ export const drinks: DrinkType[] = [
   {
     name: 'Gin Hass',
     keywords: ['Sweet', 'Fruity', 'Refreshing'],
-    ingredients: ['Gin', 'Mango syrup', 'Schweppes Russian', 'Lime']
+    ingredients: ['Gin', 'Mango syrup', 'Schweppes Red', 'Lime']
   },
   {
-    name: 'Red Russian',
+    name: 'Crimson Cooler',
     keywords: ['Sweet', 'Fruity', 'Refreshing'],
-    ingredients: ['Gin', 'Crème de Cassis', 'Lemon', 'Schweppes Russian']
+    ingredients: ['Gin', 'Crème de Cassis', 'Lemon', 'Schweppes Red']
   },
   {
     name: 'Soda pop',
     keywords: ['Candy', 'Sour', 'More Sour'],
-    ingredients: ['Apple Sourz', 'Blue Curaçao', 'Lime']
+    ingredients: ['Apple Sourz', 'Blue Curaçao', 'Lime', 'Sprite']
   },
   {
     name: 'Old Fashioned',
     keywords: ['Strong', 'Classic', 'Boozy'],
     ingredients: ['Bourbon', 'Angostura bitters', 'Orange', 'Sugar']
+  },
+  {
+    name: 'Venetian Negroni',
+    keywords: ['Bitter', 'Boozy', 'Sweet'],
+    ingredients: ['Gin', 'Sweet Vermouth', 'Campari', 'Peachtree liqueur', 'Oloroso sherry', 'Skåne Akvavit']
   },
   {
     name: 'Gin & Tonic',
