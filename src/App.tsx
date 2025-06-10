@@ -17,7 +17,7 @@ const AppContainer = styled.div`
   padding: 20px;
   text-align: center;
   @media print {
-    margin-top: -50px !important;
+    margin-top: -60px !important;
     padding: 0 !important;
   }
 `;
@@ -44,7 +44,7 @@ const App: React.FC = () => {
             element={
               <>
                 <img src={imgUrl} alt="logo" style={{ width: 250 }} />
-                <h1 style={{ marginTop: -20, marginBottom: 60 }}>Tilde & Veras Student</h1>
+                <h1 style={{ marginTop: -40, marginBottom: 60 }}>Tilde & Veras Student</h1>
                 <Tildevera />
               </>
             }

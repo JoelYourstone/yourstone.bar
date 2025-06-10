@@ -12,13 +12,13 @@ const DrinkCard = styled.div`
   text-align: left;
   width: calc(50% - 20px);
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 
   @media (max-width: 768px) {
     width: 100%;
   }
   @media print {
-    width: calc(50% - 20px) !important;
+    width: calc(50% - 10px) !important;
   }
 `;
 

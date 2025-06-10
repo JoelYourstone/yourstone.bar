@@ -7,7 +7,8 @@ const DrinkContainer = styled.div`
   margin: 0 auto;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 0 20px;
+  gap: 0 10px;
+  margin-top: 0px;
 `;
 
 function TildeVera() {
