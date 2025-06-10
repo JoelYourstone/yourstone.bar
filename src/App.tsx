@@ -49,6 +49,15 @@ const App: React.FC = () => {
               </>
             }
           />
+          <Route
+            path="/tildevera-instructions"
+            element={
+              <>
+                <img src={imgUrl} alt="logo" style={{ width: 250 }} />
+                <Tildevera instructions />
+              </>
+            }
+          />
         </Routes>
       </AppContainer>
     </Router>

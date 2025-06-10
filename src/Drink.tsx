@@ -5,6 +5,7 @@ interface DrinkProps {
   name: string;
   keywords: string[];
   ingredients: string[];
+  isInstructions?: boolean;
 }
 
 const DrinkCard = styled.div`
@@ -48,12 +49,14 @@ const Keywords = styled.div`
   font-size: 1rem;
 `;
 
-const Drink: React.FC<DrinkProps> = ({ name, keywords, ingredients }) => {
+const Drink: React.FC<DrinkProps> = ({ name, keywords, ingredients, isInstructions }) => {
   return (
     <DrinkCard>
       <div>
         <DrinkTitle>{name}</DrinkTitle>
-        <DrinkIngredients>{ingredients.join(', ')}</DrinkIngredients>
+        <DrinkIngredients>
+          {isInstructions ? ingredients.map((ingredient) => <div>{ingredient}</div>) : <>{ingredients.join(', ')}</>}
+        </DrinkIngredients>
       </div>
       <Keywords>
         {keywords.map((keyword, index) => (
