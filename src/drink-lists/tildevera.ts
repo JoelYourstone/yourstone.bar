@@ -9,7 +9,7 @@ export const drinks: DrinkType[] = [
   {
     name: 'Raspberry Licorice',
     keywords: ['Sweet', 'Complex', 'Unique'],
-    ingredients: ['Raspberry Liqueur', 'Pernod', 'Agave Nectar', 'Lemon']
+    ingredients: ['Raspberry Liqueur', 'Pernod', 'Agave', 'Lemon']
   },
   {
     name: 'Puka Punch',
@@ -54,5 +54,10 @@ export const drinks: DrinkType[] = [
     name: 'Gin & Tonic',
     keywords: ['Classic', 'Refreshing', 'Simple'],
     ingredients: ['Gin', 'Tonic water']
+  },
+  {
+    name: 'Fråga!',
+    keywords: [''],
+    ingredients: ['Vet du inte vad du vill ha? Fråga, så får vi se vad vi kan göra!']
   }
 ];
