@@ -1,7 +1,7 @@
 export const drinks = [
   {
     name: 'Daiquiri',
-    keywords: ['Balanserad', 'Syrlig', 'Elegant', 'Klassisk'],
+    keywords: ['Balanserad', 'Syrlig', 'Klassisk'],
     ingredients: ['Rom (välj själv)', 'Lime', 'Sockerlag']
   },
   {
