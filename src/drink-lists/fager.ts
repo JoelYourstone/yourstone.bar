@@ -7,7 +7,7 @@ export const drinks = [
   {
     name: 'Jet Pilot',
     keywords: ['Boozy', 'Kryddig', 'Tiki'],
-    ingredients: ['Coruba Dark (Jamaica)', 'Rum Malecon 3 year (Panama)', 'Pusser\'s 151 (Guyana)', 'Lime', 'Grapefrukt', 'Kanel', 'Hemgjord falernum', 'Herbsaint']
+    ingredients: ['Coruba Dark (Jamaica)', 'Rum Malecon 3 year (Panama)', 'Pusser\'s 151 (Guyana)', 'Lime', 'Grapefrukt', 'Kanel', 'Hemgjord falernum (innehåller mandel)', 'Herbsaint', 'Angostura bitters']
   },
   {
     name: 'Uma uma',
@@ -18,5 +18,15 @@ export const drinks = [
     name: 'Saturn',
     keywords: ['Balanserad', 'Kryddig', 'Gin+Tiki'],
     ingredients: ['Gin (välj själv)', 'Orgeat (innehåller mandelmjölk)', 'Falernum', 'Citron', 'Passionsfrukt']
+  },
+  {
+    name: 'Alkoholfri G&T',
+    keywords: [''],
+    ingredients: ['Hemgjort ginkoncentrat baserat på Stjernsunds Navy gin', 'Tonic', 'Lime']
+  },
+  {
+    name: 'Request!',
+    keywords: [''],
+    ingredients: ['Kom med förslag eller exempel på vad du gillar, så fixar vi något :)']
   }
 ];
