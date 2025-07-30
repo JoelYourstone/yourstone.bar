@@ -1,43 +1,22 @@
 export const drinks = [
   {
-    name: 'The triumvirate of hell (bål)',
-    keywords: ['Balanserad', 'Tropisk', 'Kryddig'],
-    ingredients: ['Rum-bar Silver (Jamaica)', 'Lime', 'Passionsfrukt', 'Muskot', 'Bitters']
+    name: 'Daiquiri',
+    keywords: ['Balanserad', 'Syrlig', 'Elegant', 'Klassisk'],
+    ingredients: ['Rom (välj själv)', 'Lime', 'Sockerlag']
   },
   {
-    name: 'Spooky Island volcano',
-    keywords: ['Söt', 'Tropisk', 'Lätt'],
-    ingredients: ['Mount Gay Eclipse (Barbados)', 'Lime', 'Ananas', 'Kokos', 'Guava soda']
+    name: 'Jet Pilot',
+    keywords: ['Boozy', 'Kryddig', 'Tiki'],
+    ingredients: ['Coruba Dark (Jamaica)', 'Rum Malecon 3 year (Panama)', 'Pusser\'s 151 (Guyana)', 'Lime', 'Grapefrukt', 'Kanel', 'Hemgjord falernum', 'Herbsaint']
   },
   {
-    name: 'Melloween',
-    keywords: ['Söt', 'Boozy', 'Mellow'],
-    ingredients: ['MFC', 'Sockerlag', 'Bitters', 'Eld']
-  },
-  {
-    name: 'Scooby Snaquiri (frozen)',
-    keywords: ['Söt', 'Syrlig', 'Stark', 'Slushie'],
-    ingredients: ['Havana Club Añejo 3 años', 'Lime', 'Sockerlag']
-  },
-  {
-    name: 'Luna Ghost',
+    name: 'Uma uma',
     keywords: ['Dessert-ig', 'Söt'],
-    ingredients: [
-      'Tempus Fugit Crème de Cacao & Crème de Banane',
-      'El Dorado 8 year (Guyana)',
-      'Soja- eller havregrädde',
-      'Bitter Truth Spiced Chocolate Bitters',
-      'Muskot'
-    ]
+    ingredients: ['Plantation 3 stars', 'Trader Vic\'s Macadamia nut liqueur', 'Kokos', 'Ananas']
   },
   {
-    name: 'Alkoholfri Gin&Tonic (~0.15% ABV)',
-    keywords: ['Bitter', 'Söt', 'Frisk'],
-    ingredients: ['Hemgjord Gin Tincture på Stjernsunds Navy Gin', 'Tonic Water', 'Limeklyfta']
-  },
-  {
-    name: 'Champagne',
-    keywords: ['Light', 'Dry'],
-    ingredients: ['Billecart-Salmon Brut Réserve']
+    name: 'Saturn',
+    keywords: ['Balanserad', 'Kryddig', 'Gin+Tiki'],
+    ingredients: ['Gin (välj själv)', 'Orgeat (innehåller mandelmjölk)', 'Falernum', 'Citron', 'Passionsfrukt']
   }
 ];
