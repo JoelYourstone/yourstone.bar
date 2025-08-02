@@ -5,19 +5,24 @@ export const drinks = [
     ingredients: ['Rom (välj själv)', 'Lime', 'Sockerlag']
   },
   {
-    name: 'Jet Pilot',
-    keywords: ['Boozy', 'Kryddig', 'Tiki'],
-    ingredients: ['Coruba Dark (Jamaica)', 'Rum Malecon 3 year (Panama)', 'Pusser\'s 151 (Guyana)', 'Lime', 'Grapefrukt', 'Kanel', 'Hemgjord falernum (innehåller mandel)', 'Herbsaint', 'Angostura bitters']
+    name: 'Planter\'s Punch',
+    keywords: ['Kryddig', 'Rommig', 'Tiki'],
+    ingredients: ['Appleton 12 year (Jamaica)', 'Allspice dram (kryddpepparlikör)', 'Lime', 'Demerarasocker', 'Angostura bitters']
   },
   {
-    name: 'Uma uma',
-    keywords: ['Dessert-ig', 'Söt'],
-    ingredients: ['Plantation 3 stars', 'Trader Vic\'s Macadamia nut liqueur', 'Kokos', 'Ananas']
+    name: 'Hotel Nacional Special',
+    keywords: ['Söt', 'Syrlig'],
+    ingredients: ['Havana Club 7 años (Kuba)', 'Ararat apricot brandy', 'Lime', 'Ananas', 'Demerarasocker']
   },
   {
-    name: 'Saturn',
-    keywords: ['Balanserad', 'Kryddig', 'Gin+Tiki'],
-    ingredients: ['Gin (välj själv)', 'Orgeat (innehåller mandelmjölk)', 'Falernum', 'Citron', 'Passionsfrukt']
+    name: 'Dr. Barça\'s fluffy banana',
+    keywords: ['Sött skit', 'Dessert-ig'],
+    ingredients: ['Velho Barreiro Cachaça (Brasilien)', 'Giffard Banane du Brésil', 'Kokos', 'Citron', 'Angostura Bitters']
+  },
+  {
+    name: 'Kahiko Punch',
+    keywords: ['Söt', 'Tropisk', 'Tiki'],
+    ingredients: ['Rum-bar Silver (Jamaica)', 'Hemgjord Hibiskuslikör', 'Passionsfrukt', 'Honung', 'Kanel', 'Citron', '\'Elemakule Tiki Bitters']
   },
   {
     name: 'Alkoholfri G&T',
