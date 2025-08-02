@@ -7,7 +7,7 @@ export const drinks = [
   {
     name: 'Planter\'s Punch',
     keywords: ['Kryddig', 'Rommig', 'Tiki'],
-    ingredients: ['Appleton 12 year (Jamaica)', 'Allspice dram (kryddpepparlikör)', 'Lime', 'Demerarasocker', 'Angostura bitters']
+    ingredients: ['Appleton 12 year (Jamaica)', 'Allspice dram (kryddpepparlikör)', 'Lime', 'Demerarasocker', 'Angostura bitters', 'Muskot']
   },
   {
     name: 'Hotel Nacional Special',
