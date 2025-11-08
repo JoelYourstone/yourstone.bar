@@ -1,23 +1,23 @@
 export const drinks = [
   {
-    name: 'Daiquiri',
-    keywords: ['Balanserad', 'Syrlig', 'Klassisk'],
-    ingredients: ['Rom (välj själv)', 'Lime', 'Sockerlag']
+    name: 'Top Notch Volcano (bål - tag själv!)',
+    keywords: ['Söt', 'Syrlig', 'Tropisk'],
+    ingredients: ['Rom', 'Lime', 'Passionsfrukt', 'Ananas', 'Maraschinolikör', 'Demerarasocker']
   },
   {
-    name: 'Planter\'s Punch',
-    keywords: ['Kryddig', 'Rommig', 'Tiki'],
-    ingredients: ['Appleton 12 year (Jamaica)', 'Allspice dram (kryddpepparlikör)', 'Lime', 'Demerarasocker', 'Angostura bitters', 'Muskot']
+    name: 'Jasper\'s Planter\'s Punch',
+    keywords: ['Kryddig', 'Lätt', 'Söt'],
+    ingredients: ['Jamaicansk rom', 'Lime', 'Angostura bitters', 'Muskot']
   },
   {
-    name: 'Hotel Nacional Special',
-    keywords: ['Söt', 'Syrlig'],
-    ingredients: ['Havana Club 7 años (Kuba)', 'Ararat apricot brandy', 'Lime', 'Ananas', 'Demerarasocker']
+    name: 'RY Sour',
+    keywords: ['Balanserad', 'Syrlig', 'Söt'],
+    ingredients: ['Bourbon', 'Citron', 'Angostura bitters', 'Meth', 'Blod (garnering)']
   },
   {
-    name: 'Dr. Barça\'s fluffy banana',
-    keywords: ['Sött skit', 'Dessert-ig'],
-    ingredients: ['Velho Barreiro Cachaça (Brasilien)', 'Giffard Banane du Brésil', 'Kokos', 'Citron', 'Angostura Bitters']
+    name: 'M&D Peach Negroni',
+    keywords: ['Söt', 'Bitter', 'Boozy'],
+    ingredients: ['Gin', 'Akvavit', 'Campari', 'Vermouth', 'Persikolikör', 'Portvin']
   },
   {
     name: 'Kahiko Punch',
@@ -27,7 +27,27 @@ export const drinks = [
   {
     name: 'Alkoholfri G&T',
     keywords: [''],
-    ingredients: ['Hemgjort ginkoncentrat baserat på Stjernsunds Navy gin', 'Tonic', 'Lime']
+    ingredients: ['Hemgjort ginkoncentrat baserat på Stjernsunds Navy gin', 'Tonic']
+  },
+  {
+    name: 'Alkoholfri Öl',
+    keywords: [''],
+    ingredients: ['Mikkeller Drink\'in the sun IPA eller Gotlands Visby Lager']
+  },
+  {
+    name: 'P.M.',
+    keywords: [''],
+    ingredients: ['Pepsi Max AKA El Clasico']
+  },
+  {
+    name: 'Det Gröna Guldet',
+    keywords: [''],
+    ingredients: ['Iskold Faxe Kondi']
+  },
+  {
+    name: 'Annat',
+    keywords: [''],
+    ingredients: ['Rödvin, bubbel, Underberg, Mümmelmann (IYKYK) m.m...']
   },
   {
     name: 'Request!',
