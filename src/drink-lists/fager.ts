@@ -20,11 +20,6 @@ export const drinks = [
     ingredients: ['Gin', 'Akvavit', 'Campari', 'Vermouth', 'Persikolikör', 'Portvin']
   },
   {
-    name: 'Kahiko Punch',
-    keywords: ['Söt', 'Tropisk', 'Tiki'],
-    ingredients: ['Rum-bar Silver (Jamaica)', 'Hemgjord Hibiskuslikör', 'Passionsfrukt', 'Honung', 'Kanel', 'Citron', '\'Elemakule Tiki Bitters']
-  },
-  {
     name: 'Alkoholfri G&T',
     keywords: [''],
     ingredients: ['Hemgjort ginkoncentrat baserat på Stjernsunds Navy gin', 'Tonic']
