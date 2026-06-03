@@ -16,7 +16,7 @@ const Fager: React.FC = () => {
     <>
       <FagerContainer>
         <img src={imgUrl} alt="logo" height={200} />
-        <h1 style={{ marginTop: 10 }}>FagerBARg</h1>
+        <h1 style={{ marginTop: 10 }}>Knigge T afterwork</h1>
       </FagerContainer>
       <Menu drinks={drinks} />
     </>
