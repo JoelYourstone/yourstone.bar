@@ -5,48 +5,13 @@ export const drinks = [
     ingredients: ['Rom', 'Lime', 'Passionsfrukt', 'Ananas', 'Maraschinolikör', 'Demerarasocker']
   },
   {
-    name: 'Jasper\'s Planter\'s Punch',
-    keywords: ['Kryddig', 'Lätt', 'Söt'],
-    ingredients: ['Jamaicansk rom', 'Lime', 'Angostura bitters', 'Muskot']
+    name: 'Classic Negroni (finns färdigblandad i frysen, 1 drink är ca. 1dl)',
+    keywords: ['Bitter', 'Söt', 'Boozy'],
+    ingredients: ['Biostilla Organic Gin', 'Campari', 'Cocchi Storico Vermouth di Torino']
   },
   {
-    name: 'RY Sour',
-    keywords: ['Balanserad', 'Syrlig', 'Söt'],
-    ingredients: ['Bourbon', 'Citron', 'Angostura bitters', 'Meth', 'Blod (garnering)']
-  },
-  {
-    name: 'M&D Peach Negroni',
-    keywords: ['Söt', 'Bitter', 'Boozy'],
-    ingredients: ['Gin', 'Akvavit', 'Campari', 'Vermouth', 'Persikolikör', 'Portvin']
-  },
-  {
-    name: 'Alkoholfri G&T',
-    keywords: [''],
-    ingredients: ['Hemgjort ginkoncentrat baserat på Stjernsunds Navy gin', 'Tonic']
-  },
-  {
-    name: 'Alkoholfri Öl',
-    keywords: [''],
-    ingredients: ['Mikkeller Drink\'in the sun IPA eller Gotlands Visby Lager']
-  },
-  {
-    name: 'P.M.',
-    keywords: [''],
-    ingredients: ['Pepsi Max AKA El Clasico']
-  },
-  {
-    name: 'Det Gröna Guldet',
-    keywords: [''],
-    ingredients: ['Iskold Faxe Kondi']
-  },
-  {
-    name: 'Annat',
-    keywords: [''],
-    ingredients: ['Rödvin, bubbel, Underberg, Mümmelmann (IYKYK) m.m...']
-  },
-  {
-    name: 'Request!',
-    keywords: [''],
-    ingredients: ['Kom med förslag eller exempel på vad du gillar, så fixar vi något :)']
+    name: 'Lemon Drop',
+    keywords: ['Söt', 'Syrlig', 'Lätt'],
+    ingredients: ['Absolut Citron Vodka', 'Cointreau', 'Citron', 'Demerarasocker']
   }
 ];
