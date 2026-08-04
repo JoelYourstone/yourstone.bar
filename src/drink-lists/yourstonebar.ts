@@ -37,6 +37,11 @@ export const drinks: DrinkType[] = [
     ingredients: ["Hendrick's Gin", 'Cocchi Storico', 'Campari', 'Peachtree liqueur', 'Oloroso sherry', 'Skåne Akvavit']
   },
   {
+    name: 'Negroni',
+    keywords: ['Bitter', 'Boozy', 'Sweet'],
+    ingredients: ['Gin', 'Vermouth', 'Campari']
+  },
+  {
     name: 'Hotel Nacional Special',
     keywords: ['Tiki', 'Fruity', 'Sweet', 'Sour'],
     ingredients: ['Havana Club Añejo 7 Años', 'Merlet Apricot Brandy', 'Pineapple', 'Lime', 'Sugar']
@@ -105,6 +110,11 @@ export const drinks: DrinkType[] = [
     name: "Planter's Punch",
     keywords: ['Tiki', 'Kryddig', 'Sweet'],
     ingredients: ['Appleton Estate Signature Jamaican Rum', 'Lime', 'Allspice dram', 'Angostura bitters', 'Nutmeg']
+  },
+  {
+    name: 'Jungle Bird',
+    ingredients: ['Rum', 'Campari', 'pineapple', 'Lime', 'Sugar'],
+    keywords: ['Tiki', 'Fruity', 'Sweet']
   },
   {
     name: 'Request!',

@@ -7,7 +7,16 @@ import imgUrl from './assets/logo.jpeg';
 import { drinks } from './drink-lists/yourstonebar';
 import Tildevera from './TildeVera';
 
-const exclude = ['Clear Mojito', 'Piña Colada', "Trader Vic's Grog", "Planter's Punch"];
+const exclude = [
+  'Frozen Strawberry Daiquiri',
+  'Piña Colada',
+  "Trader Vic's Grog",
+  "Planter's Punch",
+  'Hotel Nacional Special',
+  'Bramble',
+  'Mai Tai',
+  'Anything Sour!'
+];
 
 const filteredDrinks = drinks.filter((drink) => !exclude.includes(drink.name));
 
